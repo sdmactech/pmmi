@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Preferred Meeting Management for expert scientific conference management services. Located in San Diego, California.">
+    <title>Contact Us - Preferred Meeting Management</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <span>🌐</span>
+                <span>Preferred Meeting Management</span>
+            </a>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                ☰
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Our Work</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get in Touch</h1>
+                <p class="lead">
+                    Ready to discuss your conference management needs? We're here to help.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-xl); margin-bottom: var(--spacing-3xl);">
+                <div class="service-card">
+                    <div class="service-icon">📍</div>
+                    <h3>Office Location</h3>
+                    <p>
+                        307 Laurel Street<br>
+                        San Diego, California<br>
+                        92101-1630<br>
+                        United States
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📞</div>
+                    <h3>Phone & Fax</h3>
+                    <p>
+                        <strong>Phone:</strong><br>
+                        <a href="tel:+16192329499">(619) 232-9499</a><br><br>
+                        <strong>Fax:</strong><br>
+                        (619) 232-0799
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>
+                        <strong>General Inquiries:</strong><br>
+                        <a href="mailto:info@pmmiconferences.com">info@pmmiconferences.com</a><br><br>
+                        We typically respond within 1 business day.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section bg-light">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h2 class="text-center">Send Us a Message</h2>
+                <p class="lead text-center">
+                    Fill out the form below and we'll get back to you as soon as possible.
+                </p>
+                
+                <form style="margin-top: var(--spacing-xl); background: white; padding: var(--spacing-xl); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name *</label>
+                        <input type="text" id="name" name="name" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address *</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="organization" class="form-label">Organization</label>
+                        <input type="text" id="organization" name="organization" class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="conference-type" class="form-label">Type of Conference</label>
+                        <select id="conference-type" name="conference-type" class="form-select">
+                            <option value="">Select...</option>
+                            <option value="mems">MEMS / Microsystems</option>
+                            <option value="scientific">Scientific / Technical</option>
+                            <option value="medical">Medical / Healthcare</option>
+                            <option value="engineering">Engineering</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="conference-date" class="form-label">Planned Conference Date (if known)</label>
+                        <input type="text" id="conference-date" name="conference-date" class="form-input" placeholder="e.g., June 2026">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="attendees" class="form-label">Expected Number of Attendees</label>
+                        <select id="attendees" name="attendees" class="form-select">
+                            <option value="">Select...</option>
+                            <option value="0-100">0-100</option>
+                            <option value="100-250">100-250</option>
+                            <option value="250-500">250-500</option>
+                            <option value="500-1000">500-1,000</option>
+                            <option value="1000+">1,000+</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="services" class="form-label">Services Interested In</label>
+                        <select id="services" name="services" class="form-select">
+                            <option value="">Select...</option>
+                            <option value="full-service">Full-Service Conference Management</option>
+                            <option value="technical-program">Technical Program Management</option>
+                            <option value="registration">Registration Services</option>
+                            <option value="onsite">On-Site Management</option>
+                            <option value="publications">Publications Management</option>
+                            <option value="exhibits">Exhibit Management</option>
+                            <option value="consultation">Consultation Services</option>
+                            <option value="multiple">Multiple Services</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-textarea" required placeholder="Please tell us about your conference and how we can help..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hear-about" class="form-label">How did you hear about us?</label>
+                        <select id="hear-about" name="hear-about" class="form-select">
+                            <option value="">Select...</option>
+                            <option value="referral">Referral from colleague</option>
+                            <option value="conference">Attended a conference we managed</option>
+                            <option value="search">Internet search</option>
+                            <option value="society">Professional society</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        Send Message
+                    </button>
+                    
+                    <p style="margin-top: var(--spacing-md); font-size: 0.875rem; color: var(--neutral-medium); text-align: center;">
+                        * Required fields
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RFP Section -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2>Request for Proposal (RFP)</h2>
+                <p class="lead">
+                    Have a detailed RFP document? We'd love to review it and provide a comprehensive proposal.
+                </p>
+                
+                <div style="margin-top: var(--spacing-xl); padding: var(--spacing-xl); background-color: var(--neutral-light); border-radius: var(--radius-lg);">
+                    <h3>Submit Your RFP</h3>
+                    <p>
+                        Please email your RFP document to <a href="mailto:info@pmmiconferences.com">info@pmmiconferences.com</a> 
+                        with the subject line "RFP Submission - [Your Conference Name]"
+                    </p>
+                    <p style="margin-top: var(--spacing-md);">
+                        Include the following information:
+                    </p>
+                    <ul style="text-align: left; max-width: 600px; margin: var(--spacing-md) auto; color: var(--neutral-medium);">
+                        <li>Conference name and dates</li>
+                        <li>Expected number of attendees</li>
+                        <li>Location (if determined)</li>
+                        <li>Scope of services needed</li>
+                        <li>Budget range</li>
+                        <li>Timeline for decision</li>
+                        <li>Key contact information</li>
+                    </ul>
+                    <p style="margin-top: var(--spacing-md);">
+                        We will review your RFP and respond with a detailed proposal within 5-7 business days.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Location</h2>
+            <p class="lead text-center">
+                Located in the heart of San Diego's Gaslamp Quarter.
+            </p>
+            
+            <div style="margin-top: var(--spacing-xl); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.9999999999995!2d-117.16!3d32.715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQyJzU0LjAiTiAxMTfCsDA5JzM2LjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            
+            <div style="margin-top: var(--spacing-lg); text-align: center;">
+                <p>
+                    <strong>Address:</strong> 307 Laurel Street, San Diego, CA 92101-1630<br>
+                    Convenient access to San Diego International Airport and downtown hotels.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Hours -->
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <h2>Office Hours</h2>
+                <div style="margin-top: var(--spacing-xl); padding: var(--spacing-xl); background-color: var(--neutral-light); border-radius: var(--radius-lg);">
+                    <p style="font-size: 1.125rem; margin-bottom: var(--spacing-md);">
+                        <strong>Monday - Friday:</strong> 8:00 AM - 5:00 PM PST
+                    </p>
+                    <p style="color: var(--neutral-medium);">
+                        We respond to emails and voicemails within one business day.
+                    </p>
+                    <p style="color: var(--neutral-medium); margin-top: var(--spacing-sm);">
+                        For urgent matters during conferences, we provide 24/7 on-site support.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>
+                Whether you're planning your first conference or looking for a new management partner, 
+                we're here to help. Contact us today to discuss your needs.
+            </p>
+            <div class="hero-buttons">
+                <a href="mailto:info@pmmiconferences.com" class="btn btn-primary">Email Us</a>
+                <a href="tel:+16192329499" class="btn btn-secondary">Call Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Preferred Meeting Management</h3>
+                    <p>
+                        Expert scientific conference management services for research communities worldwide. 
+                        Specializing in MEMS, microsystems, and technical conferences.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Our Work</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="services.html#full-management">Conference Management</a></li>
+                        <li><a href="services.html#technical-program">Technical Programs</a></li>
+                        <li><a href="services.html#registration">Registration Systems</a></li>
+                        <li><a href="services.html#publications">Publications</a></li>
+                        <li><a href="services.html#exhibits">Exhibit Management</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <span>📍</span>
+                            <span>307 Laurel Street<br>San Diego, CA 92101-1630</span>
+                        </li>
+                        <li>
+                            <span>📞</span>
+                            <span>(619) 232-9499</span>
+                        </li>
+                        <li>
+                            <span>📠</span>
+                            <span>(619) 232-0799</span>
+                        </li>
+                        <li>
+                            <span>✉️</span>
+                            <span><a href="mailto:info@pmmiconferences.com">info@pmmiconferences.com</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Preferred Meeting Management, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="global-enhancements.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
